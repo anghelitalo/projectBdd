@@ -1,0 +1,1 @@
+{"uid":"98d3104e051c652961429bf95fa0b5d6","children":[{"name":"Get by id","uid":"290bc54e71f71de0","parentUid":"98d3104e051c652961429bf95fa0b5d6","status":"failed","time":{"start":1686083707429,"stop":1686083707909,"duration":480},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[]}],"name":"suites"}

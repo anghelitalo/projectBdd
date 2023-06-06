@@ -1,0 +1,1 @@
+{"Get by id":{"statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"290bc54e71f71de0","reportUrl":"https://anghelitalo.github.io/projectBdd/3//#testresult/290bc54e71f71de0","status":"failed","statusDetails":"  Expected: OK\n  But was:  0\n","time":{"start":1686083707429,"stop":1686083707909,"duration":480}}]}}
