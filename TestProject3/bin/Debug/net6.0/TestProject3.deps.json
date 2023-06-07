@@ -8,6 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "TestProject3/1.0.0": {
         "dependencies": {
+          "Cucumber.CucumberExpressions": "16.1.1",
+          "Cucumber.Messages": "21.0.1",
+          "Gherkin": "26.0.3",
           "Microsoft.NET.Test.Sdk": "17.5.0",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.6.1",
@@ -53,11 +56,38 @@
           }
         }
       },
-      "Gherkin/19.0.3": {
+      "Cucumber.CucumberExpressions/16.1.1": {
         "runtime": {
-          "lib/netstandard2.0/Gherkin.dll": {
-            "assemblyVersion": "19.0.3.0",
-            "fileVersion": "19.0.3.0"
+          "lib/netstandard2.0/CucumberExpressions.dll": {
+            "assemblyVersion": "16.1.1.0",
+            "fileVersion": "16.1.1.0"
+          }
+        }
+      },
+      "Cucumber.Messages/21.0.1": {
+        "dependencies": {
+          "Google.Protobuf": "3.21.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Cucumber.Messages.dll": {
+            "assemblyVersion": "21.0.1.0",
+            "fileVersion": "21.0.1.0"
+          }
+        }
+      },
+      "Gherkin/26.0.3": {
+        "runtime": {
+          "lib/net6.0/Gherkin.dll": {
+            "assemblyVersion": "26.0.3.0",
+            "fileVersion": "26.0.3.0"
+          }
+        }
+      },
+      "Google.Protobuf/3.21.12": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.21.12.0",
+            "fileVersion": "3.21.12.0"
           }
         }
       },
@@ -455,7 +485,7 @@
       "SpecFlow/3.9.74": {
         "dependencies": {
           "BoDi": "1.5.0",
-          "Gherkin": "19.0.3",
+          "Gherkin": "26.0.3",
           "Microsoft.Extensions.DependencyModel": "1.0.3",
           "SpecFlow.Internal.Json": "1.0.8",
           "System.Configuration.ConfigurationManager": "4.5.0",
@@ -1107,12 +1137,33 @@
       "path": "csvhelper/27.1.0",
       "hashPath": "csvhelper.27.1.0.nupkg.sha512"
     },
-    "Gherkin/19.0.3": {
+    "Cucumber.CucumberExpressions/16.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kq9feqMojMj9aABrHb/ABEPaH2Y4dSclseSahAru6qxCeqVQNLLTgw/6vZMauzI1yBUL2fz03ub5yEd5btLfvg==",
-      "path": "gherkin/19.0.3",
-      "hashPath": "gherkin.19.0.3.nupkg.sha512"
+      "sha512": "sha512-tNPFJFWTz1CJhPs8lOayTQ9aT2jzyCmgTDXKB0maxPBmnwzmhfSBIEC1ah/ZY5+zpjLm3V0RtwxrCQGX8b4aEw==",
+      "path": "cucumber.cucumberexpressions/16.1.1",
+      "hashPath": "cucumber.cucumberexpressions.16.1.1.nupkg.sha512"
+    },
+    "Cucumber.Messages/21.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LLiXf+szR4rK3b5SPp3K8e0yGDL///LMTvTygfIQqzgV1NU4DesJ1/vrMbN6TmtzSLJDD6IXFQ9iuzY1whIQeg==",
+      "path": "cucumber.messages/21.0.1",
+      "hashPath": "cucumber.messages.21.0.1.nupkg.sha512"
+    },
+    "Gherkin/26.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MxHVTyfRMYUOPCvyLwpmlmcU8NZM+mjS0f3HFJTbUvDztO/ey+m1r8wrRsfRIdY4RRaFrgfMhps5aYyVT5jXog==",
+      "path": "gherkin/26.0.3",
+      "hashPath": "gherkin.26.0.3.nupkg.sha512"
+    },
+    "Google.Protobuf/3.21.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1TXWxQy0PDDM1NC/LojlX4YVh7NhOvvyriCfERzeUVTp0XNXv8mo/AyWxDYCvMQ9xRZHUVdWoE4/B8ridP8Btg==",
+      "path": "google.protobuf/3.21.12",
+      "hashPath": "google.protobuf.3.21.12.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.5.0": {
       "type": "package",

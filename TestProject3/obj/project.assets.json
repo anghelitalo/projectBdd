@@ -57,16 +57,54 @@
           }
         }
       },
-      "Gherkin/19.0.3": {
+      "Cucumber.CucumberExpressions/16.1.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Gherkin.dll": {
+          "lib/netstandard2.0/CucumberExpressions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CucumberExpressions.dll": {}
+        }
+      },
+      "Cucumber.Messages/21.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.21.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/Cucumber.Messages.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Gherkin.dll": {
+          "lib/netstandard2.0/Cucumber.Messages.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Gherkin/26.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Gherkin.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Gherkin.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Google.Protobuf/3.21.12": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -1910,20 +1948,74 @@
         "lib/netstandard2.1/CsvHelper.xml"
       ]
     },
-    "Gherkin/19.0.3": {
-      "sha512": "kq9feqMojMj9aABrHb/ABEPaH2Y4dSclseSahAru6qxCeqVQNLLTgw/6vZMauzI1yBUL2fz03ub5yEd5btLfvg==",
+    "Cucumber.CucumberExpressions/16.1.1": {
+      "sha512": "tNPFJFWTz1CJhPs8lOayTQ9aT2jzyCmgTDXKB0maxPBmnwzmhfSBIEC1ah/ZY5+zpjLm3V0RtwxrCQGX8b4aEw==",
       "type": "package",
-      "path": "gherkin/19.0.3",
+      "path": "cucumber.cucumberexpressions/16.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "cucumber-mark-green-128.png",
-        "gherkin.19.0.3.nupkg.sha512",
+        "cucumber.cucumberexpressions.16.1.1.nupkg.sha512",
+        "cucumber.cucumberexpressions.nuspec",
+        "lib/netstandard2.0/CucumberExpressions.dll"
+      ]
+    },
+    "Cucumber.Messages/21.0.1": {
+      "sha512": "LLiXf+szR4rK3b5SPp3K8e0yGDL///LMTvTygfIQqzgV1NU4DesJ1/vrMbN6TmtzSLJDD6IXFQ9iuzY1whIQeg==",
+      "type": "package",
+      "path": "cucumber.messages/21.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cucumber-mark-green-128.png",
+        "cucumber.messages.21.0.1.nupkg.sha512",
+        "cucumber.messages.nuspec",
+        "lib/net45/Cucumber.Messages.dll",
+        "lib/net45/Cucumber.Messages.xml",
+        "lib/netstandard2.0/Cucumber.Messages.dll",
+        "lib/netstandard2.0/Cucumber.Messages.xml"
+      ]
+    },
+    "Gherkin/26.0.3": {
+      "sha512": "MxHVTyfRMYUOPCvyLwpmlmcU8NZM+mjS0f3HFJTbUvDztO/ey+m1r8wrRsfRIdY4RRaFrgfMhps5aYyVT5jXog==",
+      "type": "package",
+      "path": "gherkin/26.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cucumber-mark-green-128.png",
+        "gherkin.26.0.3.nupkg.sha512",
         "gherkin.nuspec",
-        "lib/net45/Gherkin.dll",
-        "lib/net45/Gherkin.xml",
+        "lib/net462/Gherkin.dll",
+        "lib/net462/Gherkin.xml",
+        "lib/net6.0/Gherkin.dll",
+        "lib/net6.0/Gherkin.xml",
         "lib/netstandard2.0/Gherkin.dll",
         "lib/netstandard2.0/Gherkin.xml"
+      ]
+    },
+    "Google.Protobuf/3.21.12": {
+      "sha512": "1TXWxQy0PDDM1NC/LojlX4YVh7NhOvvyriCfERzeUVTp0XNXv8mo/AyWxDYCvMQ9xRZHUVdWoE4/B8ridP8Btg==",
+      "type": "package",
+      "path": "google.protobuf/3.21.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.protobuf.3.21.12.nupkg.sha512",
+        "google.protobuf.nuspec",
+        "lib/net45/Google.Protobuf.dll",
+        "lib/net45/Google.Protobuf.pdb",
+        "lib/net45/Google.Protobuf.xml",
+        "lib/net5.0/Google.Protobuf.dll",
+        "lib/net5.0/Google.Protobuf.pdb",
+        "lib/net5.0/Google.Protobuf.xml",
+        "lib/netstandard1.1/Google.Protobuf.dll",
+        "lib/netstandard1.1/Google.Protobuf.pdb",
+        "lib/netstandard1.1/Google.Protobuf.xml",
+        "lib/netstandard2.0/Google.Protobuf.dll",
+        "lib/netstandard2.0/Google.Protobuf.pdb",
+        "lib/netstandard2.0/Google.Protobuf.xml"
       ]
     },
     "Microsoft.CodeCoverage/17.5.0": {
@@ -5839,6 +5931,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Cucumber.CucumberExpressions >= 16.1.1",
+      "Cucumber.Messages >= 21.0.1",
+      "Gherkin >= 26.0.3",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
@@ -5853,19 +5948,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\elmer\\.nuget\\packages\\": {}
+    "C:\\Users\\Angelica Lopez\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elmer\\source\\repos\\TestProject3\\TestProject3\\TestProject3.csproj",
+      "projectUniqueName": "D:\\trainingMojix\\proyFinalBdd\\specflow\\TestProject3\\TestProject3.csproj",
       "projectName": "TestProject3",
-      "projectPath": "C:\\Users\\elmer\\source\\repos\\TestProject3\\TestProject3\\TestProject3.csproj",
-      "packagesPath": "C:\\Users\\elmer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elmer\\source\\repos\\TestProject3\\TestProject3\\obj\\",
+      "projectPath": "D:\\trainingMojix\\proyFinalBdd\\specflow\\TestProject3\\TestProject3.csproj",
+      "packagesPath": "C:\\Users\\Angelica Lopez\\.nuget\\packages\\",
+      "outputPath": "D:\\trainingMojix\\proyFinalBdd\\specflow\\TestProject3\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\elmer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Angelica Lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5873,6 +5973,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5891,6 +5992,18 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Cucumber.CucumberExpressions": {
+            "target": "Package",
+            "version": "[16.1.1, )"
+          },
+          "Cucumber.Messages": {
+            "target": "Package",
+            "version": "[21.0.1, )"
+          },
+          "Gherkin": {
+            "target": "Package",
+            "version": "[26.0.3, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.5.0, )"

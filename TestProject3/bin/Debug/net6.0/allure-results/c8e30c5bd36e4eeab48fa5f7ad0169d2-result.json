@@ -1,0 +1,152 @@
+{
+  "uuid": "ef5efd8eaff7468a9a7002853594d02f",
+  "historyId": "Add a new product",
+  "fullName": "Add a new product",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "13"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-QBK7PEV"
+    },
+    {
+      "name": "feature",
+      "value": "CreateProductTest"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    },
+    {
+      "name": "tag",
+      "value": "regression"
+    },
+    {
+      "name": "tag",
+      "value": "integration"
+    },
+    {
+      "name": "tag",
+      "value": "JIRA-1"
+    }
+  ],
+  "links": [],
+  "name": "Add a new product",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: <System.ArgumentException>\r\n  But was:  null\r\n",
+    "trace": "NUnit.Framework.AssertionException:   Expected: <System.ArgumentException>\r\n  But was:  null\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)\r\n   at NUnit.Framework.Assert.Throws(Type expectedExceptionType, TestDelegate code, String message, Object[] args)\r\n   at NUnit.Framework.Assert.Throws[TActual](TestDelegate code, String message, Object[] args)\r\n   at NUnit.Framework.Assert.Throws[TActual](TestDelegate code)\r\n   at TestProject3.PostAuthenticationStepDefinition.GivenTheTokenWithAValidValue() in D:\\trainingMojix\\proyFinalBdd\\specflow\\TestProject3\\PostAuthenticationStepDefinition.cs:line 31\r\n   at lambda_method28(Closure , IContextManager )\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  the user password",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686102722783,
+      "stop": 1686102724029
+    },
+    {
+      "name": "And  the token with a valid value",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686102724030,
+      "stop": 1686102730832
+    },
+    {
+      "name": "Then  the result status code should be 200",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686102730834,
+      "stop": 1686102730839
+    },
+    {
+      "name": "And  the user creates a new product with the following information",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "10b0bb43aa464b76ad2f7b806a9156cc-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1686102730846,
+      "stop": 1686102730863
+    },
+    {
+      "name": "Then  Then the result status code should be 200",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686102730863,
+      "stop": 1686102730870
+    },
+    {
+      "name": "And  The user sees the proper product information created",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686102730870,
+      "stop": 1686102730870
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686102722768,
+  "stop": 1686102736740
+}

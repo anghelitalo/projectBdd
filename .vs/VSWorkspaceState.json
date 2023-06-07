@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\TestProject3",
+    "\\TestProject3\\bin",
+    "\\TestProject3\\features",
+    "\\TestProject3\\obj"
+  ],
+  "PreviewInSolutionExplorer": false
+}
