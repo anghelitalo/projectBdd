@@ -1,2 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Tue Jun 06 20:35:07 GMT 2023","Tue Jun 06 20:35:07 GMT 2023","480","","","","","","Get by id",""
+"failed","Wed Jun 07 03:35:48 GMT 2023","Wed Jun 07 03:35:48 GMT 2023","93","","","","","","Get by id",""
+"passed","Wed Jun 07 03:35:48 GMT 2023","Wed Jun 07 03:35:48 GMT 2023","40","","","","","","Authentication to api gatling",""
+"failed","Wed Jun 07 03:35:47 GMT 2023","Wed Jun 07 03:35:48 GMT 2023","572","","","","","","Add a new product",""

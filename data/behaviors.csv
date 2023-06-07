@@ -1,2 +1,4 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
 "","Get posts","","1","0","0","0","0"
+"","PostAuthenticationTest","","0","0","1","0","0"
+"","CreateProductTest","","1","0","0","0","0"
