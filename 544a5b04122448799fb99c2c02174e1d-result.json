@@ -1,0 +1,99 @@
+{
+  "uuid": "a20b748b1ef04a10b6adb13d7e7d2f50",
+  "historyId": "Authentication to api gatling",
+  "fullName": "Authentication to api gatling",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "13"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-QBK7PEV"
+    },
+    {
+      "name": "feature",
+      "value": "PostAuthenticationTest"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    },
+    {
+      "name": "tag",
+      "value": "regression"
+    },
+    {
+      "name": "tag",
+      "value": "integration"
+    },
+    {
+      "name": "tag",
+      "value": "JIRA-0"
+    }
+  ],
+  "links": [],
+  "name": "Authentication to api gatling",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  the user password",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686099569470,
+      "stop": 1686099570625
+    },
+    {
+      "name": "And  the token with a valid value",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686099570627,
+      "stop": 1686099736769
+    },
+    {
+      "name": "Then  the result status code should be 200",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686099736773,
+      "stop": 1686099738392
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686099569454,
+  "stop": 1686099738395
+}

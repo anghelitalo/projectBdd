@@ -1,0 +1,101 @@
+{
+  "uuid": "4a92c684207f454bb1cf42ab21adacc7",
+  "historyId": "Authentication to api gatling",
+  "fullName": "Authentication to api gatling",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "13"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-QBK7PEV"
+    },
+    {
+      "name": "feature",
+      "value": "PostAuthenticationTest"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    },
+    {
+      "name": "tag",
+      "value": "regression"
+    },
+    {
+      "name": "tag",
+      "value": "integration"
+    },
+    {
+      "name": "tag",
+      "value": "JIRA-0"
+    }
+  ],
+  "links": [],
+  "name": "Authentication to api gatling",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: <empty>\r\n  But was:  \"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY4NjEwMzExNSwiZXhwIjoxNjg2MTA2NzE1fQ.seI80p1RXuKLtAzK1mouEiF2hhMtCKXWW2Z4lM6vM0I\"\r\n",
+    "trace": "NUnit.Framework.AssertionException:   Expected: <empty>\r\n  But was:  \"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY4NjEwMzExNSwiZXhwIjoxNjg2MTA2NzE1fQ.seI80p1RXuKLtAzK1mouEiF2hhMtCKXWW2Z4lM6vM0I\"\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsEmpty(String aString)\r\n   at TestProject3.PostAuthenticationStepDefinition.GivenTheTokenWithAValidValue() in D:\\trainingMojix\\proyFinalBdd\\specflow\\TestProject3\\PostAuthenticationStepDefinition.cs:line 31\r\n   at lambda_method28(Closure , IContextManager )\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  the user password",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686103114380,
+      "stop": 1686103115733
+    },
+    {
+      "name": "And  the token with a valid value",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686103115735,
+      "stop": 1686103167028
+    },
+    {
+      "name": "Then  the result status code should be 200",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686103167030,
+      "stop": 1686103167042
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686103114359,
+  "stop": 1686103168621
+}

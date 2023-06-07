@@ -1,0 +1,99 @@
+{
+  "uuid": "9a818f3d16e54ec69f7004ee30709e03",
+  "historyId": "Authentication to api gatling",
+  "fullName": "Authentication to api gatling",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az358-781"
+    },
+    {
+      "name": "feature",
+      "value": "PostAuthenticationTest"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    },
+    {
+      "name": "tag",
+      "value": "regression"
+    },
+    {
+      "name": "tag",
+      "value": "integration"
+    },
+    {
+      "name": "tag",
+      "value": "JIRA-0"
+    }
+  ],
+  "links": [],
+  "name": "Authentication to api gatling",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  the user password",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686108948331,
+      "stop": 1686108948369
+    },
+    {
+      "name": "And  the token with a valid value",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686108948369,
+      "stop": 1686108948370
+    },
+    {
+      "name": "Then  the result status code should be 200",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686108948370,
+      "stop": 1686108948371
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686108948331,
+  "stop": 1686108948371
+}

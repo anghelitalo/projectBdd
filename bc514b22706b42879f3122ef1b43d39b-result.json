@@ -1,0 +1,152 @@
+{
+  "uuid": "cfac50f17a0e4a319557cc6094537f77",
+  "historyId": "Add a new product",
+  "fullName": "Add a new product",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az358-781"
+    },
+    {
+      "name": "feature",
+      "value": "CreateProductTest"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    },
+    {
+      "name": "tag",
+      "value": "regression"
+    },
+    {
+      "name": "tag",
+      "value": "integration"
+    },
+    {
+      "name": "tag",
+      "value": "JIRA-1"
+    }
+  ],
+  "links": [],
+  "name": "Add a new product",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: OK\n  But was:  Forbidden\n",
+    "trace": "NUnit.Framework.AssertionException:   Expected: OK\n  But was:  Forbidden\n\n   at NUnit.Framework.Assert.ReportFailure(String message)\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression)\n   at TestProject3.ProductStepDefinition.ThenThenTheResultStatusCodeShouldBe(Int32 p0) in /home/runner/work/projectBdd/projectBdd/TestProject3/ProductStepDefinition.cs:line 37\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  the user password to product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686108947641,
+      "stop": 1686108947984
+    },
+    {
+      "name": "And  the token with a valid value to product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686108947985,
+      "stop": 1686108947991
+    },
+    {
+      "name": "Then  Then the result status code should be 200",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686108947991,
+      "stop": 1686108948087
+    },
+    {
+      "name": "And  the user creates a new product with the following information",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "8b49663491bc4ce5aabf101c13a8375b-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1686108948091,
+      "stop": 1686108948163
+    },
+    {
+      "name": "Then  Then the result status code should be 200",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686108948163,
+      "stop": 1686108948199
+    },
+    {
+      "name": "And  The user sees the proper product information created",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686108948200,
+      "stop": 1686108948200
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686108947634,
+  "stop": 1686108948206
+}
